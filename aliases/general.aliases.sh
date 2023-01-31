@@ -29,3 +29,6 @@ alias fix_stty='stty sane'                  # fix_stty:     Restore terminal set
 alias fix_term='echo -e "\033c"'            # fix_term:     Reset the conosle.  Similar to the reset command
 alias cic='set completion-ignore-case On'   # cic:          Make tab-completion case-insensitive
 alias src='source ~/.bashrc'                # src:          Reload .bashrc file
+alias zettel='nvim -c :ZettelOpen'
+alias wiki='firefox ~/Documents/zettelkasten_html/2204171124_toc.html'
+alias zotero='/opt/Zotero_linux-x86_64/zotero &'
